@@ -27,8 +27,12 @@ to this section's matching END comment to see page-specific styles.
 }
 
 /* Basic page style resets */
-* {
+#ev{
   box-sizing: border-box;
+  width:100px;
+  border: solid #5B6DCD 10px;
+  height:80px;
+  font-family:  Georgia, serif;
 }
 [hidden] {
   display: none !important;
